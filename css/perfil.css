@@ -1,0 +1,25 @@
+.contenido-perfil{
+    padding: 20px 35px;
+    margin: 20px;
+    background-color: #FFF;
+}
+input[type=text],
+input[type=email],
+input[type=password]{
+    width: 29%;
+}
+.foot{
+    margin-top: 50px;
+    
+}
+.btn-guardar{
+    margin-left: 0;
+}
+
+@media (max-width: 780px) {
+    input[type=text],
+    input[type=email],
+    input[type=password]{
+        width: 100%;
+    }
+}

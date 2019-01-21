@@ -1,0 +1,197 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+html a,
+input,
+li,
+p,
+span,
+textarea {
+    margin-bottom: 0;
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+}
+
+
+/*configuracion form flotante*/
+
+.rojo {
+    color: red;
+}
+
+.btn-base {
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 32px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -o-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    position: relative;
+    color: rgba(0, 0, 0, .65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+
+.btn-guardar {
+    color: #fff;
+    background-color: #1890ff;
+    border: none;
+    margin-left: 8px;
+}
+.btn-guardar:hover{
+    background-color: rgba(24, 144, 255, 0.76);
+    transition: 1s;
+}
+
+.btn-eliminar-rojo {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-eliminar-rojo:focus {
+    outline: 0;
+}
+/*------------------------------------------------------TABLA------------------------------------------*/
+.btn-ver-mas{
+    padding: 5px 10px;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 300;
+    margin-right: 5px;
+    margin-left: 0;
+}
+/*------------------------------------------------------TABLA------------------------------------------*/
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-flot-eliminar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 16px;
+    border-radius: 0 0 4px 4px;
+}
+
+.modal-content-eliminar {
+    background-color: #fefefe;
+    margin: 6% auto 15% auto;
+    border: 1px solid #888;
+    width: 28%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.input-base::placeholder{
+     color: rgba(89, 89, 89, 0.44);
+}
+.imgcontainer-eliminar {
+    padding: 32px 18px 0px 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.simbolo-pregunta{
+    color: #faad14;
+    font-size: 22px;
+    margin-right: 15px;
+}
+.flotante-container-eliminar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 32px 24px 62px;
+}
+.texto-eliminar{
+    color: rgba(0,0,0,.65);
+}
+.horizontal {
+    display: flex;
+    align-items: center;
+}
+/*--------------------------------------------------------------------------flotantecerrarsesion------------------------------------------------------*/
+.btn-pop-infouser{
+    background-color: transparent;
+    border: 0;
+}
+.btn-pop-infouser:focus{
+    outline: 0;
+}
+.modal-infouser {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal-content-infouser {
+    background-color: #fefefe;
+    position: fixed;
+    right: 1px;
+    margin: 60px 25px;
+    width: 15%;
+    border-radius: 5px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+}
+.opcion{
+    font-size: 12px;
+}
+.opcion:first-child{
+    margin-bottom: 12px;
+}
+/*--------------------------------------------------------------------------flotantecerrarsesion------------------------------------------------------*/
+
+@media (max-width: 780px) {
+    .modal-content-eliminar{
+        min-width: 100%;
+    }
+    .modal-content-infouser {
+        width: 50%;
+    }
+}

@@ -1,0 +1,6 @@
+css
+
+
+boton:focus{
+    outline:0;
+}
