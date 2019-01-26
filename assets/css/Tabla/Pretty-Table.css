@@ -2,8 +2,6 @@
     font: normal 12px/150% Arial, Helvetica, sans-serif;
     background: #fff;
     overflow: hidden;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     padding: 30px;
     margin: 2%;
@@ -38,6 +36,8 @@
 .datagrid table tbody td {
     padding: 10px;
     padding-bottom: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     color: #275420;
     /*border-left: 1px solid #C6FFC2;*/
@@ -86,8 +86,6 @@
     margin: 1px;
     color: #1E8FFF;
     border: 1px solid #1E8FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');
     background-color: #FFFF;
@@ -100,4 +98,11 @@
     color: #FFFFFF;
     background: none;
     background-color: #1E8FFF;
+}
+
+
+@media (max-width: 768px) {
+    .datagrid {
+        margin: 25% 2% 0;
+    }
 }

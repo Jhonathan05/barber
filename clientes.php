@@ -597,6 +597,273 @@
                                 </div>
                             </td>
                         </tr>
+                         <tr>
+                            <td>Filipino</td>
+                            <td>Rosas</td>
+                            <td>05</td>
+                            <td>
+                                <div class="horizontal">
+                                    <!--------------------------------------------------------------------Inicio Cuadro flotante----------------------------------------------------------------------------------->
+                                    <div id="cuadro-flotante">
+                                        <button class="btn-base btn-guardar btn-ver-mas" onclick="document.getElementById('modal-wrapper-5').style.display='block'">
+                                           ver más
+                                        </button>
+
+                                        <!------Inicio Contenido Cuadro flotante--->
+                                        <div id="modal-wrapper-5" class="modal">
+
+                                            <div class="modal-content animate">
+                                                <div class="imgcontainer">
+                                                    <span onclick="document.getElementById('modal-wrapper-5').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                                                    <div class="titulo-flot">
+                                                        Informaci&oacute;n del Cliente
+                                                    </div>
+                                                </div>
+
+                                                <div class="flotante-container">
+                                                    <span>
+                                                         <div class="titulo-campo nombre-cliente">Filipino Rosas</div>
+                                                         <div class="texto-campo">Puntos acumulados: <strong><span>05</span></strong></div>
+                                                    </span>
+                                                    <div class="marginb">
+                                                        <div class="actividad">
+                                                            Actividad
+                                                        </div>
+                                                        <div class="info-actividad">
+                                                            <span><i class="far fa-circle act-green"></i></span>
+                                                            <div class="vertical">
+                                                                <div class="fecha-hora-actividad">17/01/2019 10:37</div>
+                                                                <div class="descrip-actividad">Se han acumulado <span>25</span> puntos. </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                        <div class="info-actividad">
+                                                            <span><i class="far fa-circle act-red"></i></span>
+                                                            <div class="vertical">
+                                                                <div class="fecha-hora-actividad">17/01/2019 10:37</div>
+                                                                <div class="descrip-actividad">Se han canjeado <span>100</span> puntos. </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                    </div>                                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!------Fin Contenido Cuadro flotante--->
+                                    </div>
+    <!--------------------------------------------------------------------Fin Cuadro flotante----------------------------------------------------------------------------------->
+                                    
+                                    <div id="cuadro-flotante">
+                                        <button class="btn-eliminar-rojo rojo" onclick="document.getElementById('modal-wrapper-eliminar5').style.display='block'">
+                                           eliminar
+                                        </button>
+
+                                        <!------Inicio Contenido Cuadro flotante--->
+                                        <div id="modal-wrapper-eliminar5" class="modal">
+
+                                            <div class="modal-content-eliminar animate">
+                                                <div class="imgcontainer-eliminar">
+                                                   <div class="simbolo-pregunta"><i class="fas fa-question-circle"></i></div>
+                                                    <div class="titulo-flot">
+                                                        Eliminar Cliente
+                                                    </div>
+                                                </div>
+
+                                                <div class="flotante-container-eliminar">
+                                                    <div class="texto-eliminar">
+                                                        Se eliminar&aacute;n todos los puntos acumulados de <span>Filipino Rosas</span>. Est&aacute; seguro de eliminar la informaci&oacute;n del cliente?
+                                                    </div>
+
+                                                    
+                                                    <div class="footer-flot-eliminar">
+                                                        <button class="btn-base" type="button" onclick="document.getElementById('modal-wrapper-eliminar5').style.display='none'">Cancelar</button>
+                                                        <button class="btn-base btn-guardar" type="submit">Si</button>
+                                                    </div>
+                                                </div>                                            
+                                            </div>
+
+                                        </div>
+                                        <!------Fin Contenido Cuadro flotante--->
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>Filipino</td>
+                            <td>Rosas</td>
+                            <td>05</td>
+                            <td>
+                                <div class="horizontal">
+                                    <!--------------------------------------------------------------------Inicio Cuadro flotante----------------------------------------------------------------------------------->
+                                    <div id="cuadro-flotante">
+                                        <button class="btn-base btn-guardar btn-ver-mas" onclick="document.getElementById('modal-wrapper-5').style.display='block'">
+                                           ver más
+                                        </button>
+
+                                        <!------Inicio Contenido Cuadro flotante--->
+                                        <div id="modal-wrapper-5" class="modal">
+
+                                            <div class="modal-content animate">
+                                                <div class="imgcontainer">
+                                                    <span onclick="document.getElementById('modal-wrapper-5').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                                                    <div class="titulo-flot">
+                                                        Informaci&oacute;n del Cliente
+                                                    </div>
+                                                </div>
+
+                                                <div class="flotante-container">
+                                                    <span>
+                                                         <div class="titulo-campo nombre-cliente">Filipino Rosas</div>
+                                                         <div class="texto-campo">Puntos acumulados: <strong><span>05</span></strong></div>
+                                                    </span>
+                                                    <div class="marginb">
+                                                        <div class="actividad">
+                                                            Actividad
+                                                        </div>
+                                                        <div class="info-actividad">
+                                                            <span><i class="far fa-circle act-green"></i></span>
+                                                            <div class="vertical">
+                                                                <div class="fecha-hora-actividad">17/01/2019 10:37</div>
+                                                                <div class="descrip-actividad">Se han acumulado <span>25</span> puntos. </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                        <div class="info-actividad">
+                                                            <span><i class="far fa-circle act-red"></i></span>
+                                                            <div class="vertical">
+                                                                <div class="fecha-hora-actividad">17/01/2019 10:37</div>
+                                                                <div class="descrip-actividad">Se han canjeado <span>100</span> puntos. </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                    </div>                                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!------Fin Contenido Cuadro flotante--->
+                                    </div>
+    <!--------------------------------------------------------------------Fin Cuadro flotante----------------------------------------------------------------------------------->
+                                    
+                                    <div id="cuadro-flotante">
+                                        <button class="btn-eliminar-rojo rojo" onclick="document.getElementById('modal-wrapper-eliminar5').style.display='block'">
+                                           eliminar
+                                        </button>
+
+                                        <!------Inicio Contenido Cuadro flotante--->
+                                        <div id="modal-wrapper-eliminar5" class="modal">
+
+                                            <div class="modal-content-eliminar animate">
+                                                <div class="imgcontainer-eliminar">
+                                                   <div class="simbolo-pregunta"><i class="fas fa-question-circle"></i></div>
+                                                    <div class="titulo-flot">
+                                                        Eliminar Cliente
+                                                    </div>
+                                                </div>
+
+                                                <div class="flotante-container-eliminar">
+                                                    <div class="texto-eliminar">
+                                                        Se eliminar&aacute;n todos los puntos acumulados de <span>Filipino Rosas</span>. Est&aacute; seguro de eliminar la informaci&oacute;n del cliente?
+                                                    </div>
+
+                                                    
+                                                    <div class="footer-flot-eliminar">
+                                                        <button class="btn-base" type="button" onclick="document.getElementById('modal-wrapper-eliminar5').style.display='none'">Cancelar</button>
+                                                        <button class="btn-base btn-guardar" type="submit">Si</button>
+                                                    </div>
+                                                </div>                                            
+                                            </div>
+
+                                        </div>
+                                        <!------Fin Contenido Cuadro flotante--->
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>Filipino</td>
+                            <td>Rosas</td>
+                            <td>05</td>
+                            <td>
+                                <div class="horizontal">
+                                    <!--------------------------------------------------------------------Inicio Cuadro flotante----------------------------------------------------------------------------------->
+                                    <div id="cuadro-flotante">
+                                        <button class="btn-base btn-guardar btn-ver-mas" onclick="document.getElementById('modal-wrapper-5').style.display='block'">
+                                           ver más
+                                        </button>
+
+                                        <!------Inicio Contenido Cuadro flotante--->
+                                        <div id="modal-wrapper-5" class="modal">
+
+                                            <div class="modal-content animate">
+                                                <div class="imgcontainer">
+                                                    <span onclick="document.getElementById('modal-wrapper-5').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                                                    <div class="titulo-flot">
+                                                        Informaci&oacute;n del Cliente
+                                                    </div>
+                                                </div>
+
+                                                <div class="flotante-container">
+                                                    <span>
+                                                         <div class="titulo-campo nombre-cliente">Filipino Rosas</div>
+                                                         <div class="texto-campo">Puntos acumulados: <strong><span>05</span></strong></div>
+                                                    </span>
+                                                    <div class="marginb">
+                                                        <div class="actividad">
+                                                            Actividad
+                                                        </div>
+                                                        <div class="info-actividad">
+                                                            <span><i class="far fa-circle act-green"></i></span>
+                                                            <div class="vertical">
+                                                                <div class="fecha-hora-actividad">17/01/2019 10:37</div>
+                                                                <div class="descrip-actividad">Se han acumulado <span>25</span> puntos. </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                        <div class="info-actividad">
+                                                            <span><i class="far fa-circle act-red"></i></span>
+                                                            <div class="vertical">
+                                                                <div class="fecha-hora-actividad">17/01/2019 10:37</div>
+                                                                <div class="descrip-actividad">Se han canjeado <span>100</span> puntos. </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                    </div>                                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!------Fin Contenido Cuadro flotante--->
+                                    </div>
+    <!--------------------------------------------------------------------Fin Cuadro flotante----------------------------------------------------------------------------------->
+                                    
+                                    <div id="cuadro-flotante">
+                                        <button class="btn-eliminar-rojo rojo" onclick="document.getElementById('modal-wrapper-eliminar5').style.display='block'">
+                                           eliminar
+                                        </button>
+
+                                        <!------Inicio Contenido Cuadro flotante--->
+                                        <div id="modal-wrapper-eliminar5" class="modal">
+
+                                            <div class="modal-content-eliminar animate">
+                                                <div class="imgcontainer-eliminar">
+                                                   <div class="simbolo-pregunta"><i class="fas fa-question-circle"></i></div>
+                                                    <div class="titulo-flot">
+                                                        Eliminar Cliente
+                                                    </div>
+                                                </div>
+
+                                                <div class="flotante-container-eliminar">
+                                                    <div class="texto-eliminar">
+                                                        Se eliminar&aacute;n todos los puntos acumulados de <span>Filipino Rosas</span>. Est&aacute; seguro de eliminar la informaci&oacute;n del cliente?
+                                                    </div>
+
+                                                    
+                                                    <div class="footer-flot-eliminar">
+                                                        <button class="btn-base" type="button" onclick="document.getElementById('modal-wrapper-eliminar5').style.display='none'">Cancelar</button>
+                                                        <button class="btn-base btn-guardar" type="submit">Si</button>
+                                                    </div>
+                                                </div>                                            
+                                            </div>
+
+                                        </div>
+                                        <!------Fin Contenido Cuadro flotante--->
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
                     </tbody>
                     <tfoot>
                         <tr>
