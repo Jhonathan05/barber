@@ -22,4 +22,8 @@ input[type=password]{
     input[type=password]{
         width: 100%;
     }
+    .contenido-perfil {
+    padding: 55px 35px;
+    }
+
 }
