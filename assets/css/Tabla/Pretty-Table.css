@@ -104,5 +104,6 @@
 @media (max-width: 768px) {
     .datagrid {
         margin: 25% 2% 0;
+        z-index: 2;
     }
 }
