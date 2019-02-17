@@ -12,11 +12,7 @@
 </head>
 
 <body>
-      
-    <?php
-        include('carga.php');
-    ?>
-    
+   
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
