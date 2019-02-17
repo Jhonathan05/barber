@@ -6,11 +6,17 @@
     <?php
         include_once('layout/head.php');
     ?>
-        <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    
+    <?php
+        include('carga.php');
+    ?>
+    
     <div class="contenedor">
+       
         <div class="contenido-login">
             <form action="">
                 <div class="titulo-login">MAYLEZ</div>
@@ -25,4 +31,5 @@
 
     </div>
 </body>
+
 </html>
